@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      '<em>These are my hobbies</em> <br> <span class=r-4>Estos son mis pasatiempos</span>',
+    descripcionCurso:
+      'En este componente, se explican temáticas para determinar y expresar la posesión de alguien sobre algo, la relación y vínculo entre personas, para hablar sobre actividades que se están llevando a cabo en este preciso instante, para señalar y determinar momentos en el tiempo con fechas y expresiones temporales, pasatiempos y hobbies.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
