@@ -1024,4 +1024,7 @@ span.text-red
 .acordion__accion__btn--a
   background-color: $color-acento-botones
   border: 0px
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__texto
+  h5
+    color: $color-acento-contenido !important
 </style>
