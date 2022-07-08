@@ -7,7 +7,7 @@
         span 4
       h1.fst-italic  When things happen
     .tarjeta.rounded-0.color-acento-contenido.bg-claro.p-4.py-5.position-relative.mb-4
-      img.mb-5.position-absolute(data-aos='zoom-in-up')(src='@/assets/curso/temas/60.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
+      img.mb-5.position-absolute.d-none.d-lg-block(src='@/assets/curso/temas/60.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
       .row.justify-content-end
         .col-lg-10
           p.mb-0(data-aos='fade-right') Para poder hablar naturalmente en cualquier tiempo verbal, es necesario hacer uso de vocabulario y expresiones que hagan referencias temporales, para poder apoyar mejor el discurso y que se entienda en qué momento en particular se llevaron a cabo dichas acciones.  
@@ -299,7 +299,7 @@ export default {
 .card-audios
   display: flex
   flex-wrap: wrap
-  justify-content: center
+  justify-content: space-between
+  flex-grow: 1
   align-items: center
-  min-width: 130px
 </style>

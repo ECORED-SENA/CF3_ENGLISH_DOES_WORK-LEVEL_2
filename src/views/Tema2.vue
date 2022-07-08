@@ -7,7 +7,7 @@
         span 2
       h1 Present continuous and verbs ending in -ing 
     .tarjeta.rounded-0.color-primario.bg-claro.p-4.py-5.position-relative.mb-4
-      img.mb-5.position-absolute(data-aos='zoom-in-up')(src='@/assets/curso/temas/60.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
+      img.mb-5.position-absolute.d-none.d-lg-block(src='@/assets/curso/temas/60.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
       .row.justify-content-end
         .col-lg-10
           p.mb-0(data-aos='fade-right') El presente continuo (present continuous), también llamado presente progresivo (present progressive), es un tiempo verbal que consiste en usar el verbo “to be” conjugado en presente simple como auxiliar, seguido del verbo principal terminado en -ing.

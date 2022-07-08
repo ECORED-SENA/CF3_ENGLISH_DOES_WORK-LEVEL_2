@@ -7,7 +7,7 @@
         span 1
       h1.fst-italic Possessives - Whose is this?
     .tarjeta.rounded-0.color-secundario.p-4.py-5.position-relative
-      img.mb-5.position-absolute(data-aos='zoom-in-up')(src='@/assets/curso/temas/0.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
+      img.mb-5.position-absolute.d-none.d-lg-block(src='@/assets/curso/temas/0.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
       .row.justify-content-end
         .col-lg-10
           p.mb-0(data-aos='fade-right') En el idioma inglés, en las categorías de palabras gramaticales que ayudan a determinar la posesión de algo, se tienen tanto adjetivos posesivos como pronombres posesivos, e incluso se tiene el sufijo ‘s llamado el Genitivo Sajón (Saxon Genitive). 
