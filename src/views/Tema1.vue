@@ -37,7 +37,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="My new dress is beautiful."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -61,7 +61,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="That is her house."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -85,7 +85,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="How old is your son? "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -109,7 +109,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="Diana is my best friend."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/4.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -133,7 +133,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="He fixed his teeth. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/5.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -157,7 +157,7 @@
                       | <em>For example</em>
                   TarjetaAudio.color-acento-contenido.mb-3(
                     texto="I painted my nails."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/6.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -245,17 +245,19 @@
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-6
+                //TODO! AUDIO NO ESTA 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="That jacket is <span class=r-2>mine.</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/7.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-4 Esa chaqueta es 
                   span.r-3 mía.
+                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Those jackets are <span class=r-2>mine.</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -264,27 +266,30 @@
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/13.svg', alt='')
               .col-lg-6
+                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
-                      texto="That jacket is <span class=r-2>mine.</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      texto="That computer is <span class=r-2>mine.</span>"
+                      :audio="require('@/assets/curso/audio/tema1/9.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.ms-4 Esa chaqueta es 
-                  span.r-3 mía.
+                p.ms-4 Ese computador es
+                  span.r-3 míO.
+                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
-                      texto="Those jackets are <span class=r-2>mine.</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      texto="Those computers are <span class=r-2>mine.</span>"
+                      :audio="require('@/assets/curso/audio/tema1/10.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.ms-4 Esas chaquetas son 
-                  span.r-3 mías.
+                p.ms-4 Esos computadores son
+                  span.r-3 míos.
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6
+                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="“Those computers are <span class=r-2>mines</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -298,9 +303,10 @@
             .row.justify-content-center.mb-5
               .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/14.svg', alt='')
               .col-lg-6
+                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Is that Johana’s house?"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/12.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -314,9 +320,11 @@
             .row.justify-content-center.mb-5
               .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/15.svg', alt='')
               .col-lg-6
+                //TODO! AUDIO NO ESTA
+                
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Whose car is this?"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -335,7 +343,7 @@
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="This bag is <span class=r-2>my bag</span>, not <span class=r-2>your bag</span>."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/14.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -345,7 +353,7 @@
                   span.r-3 tu bolso.
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="This bag is <span class=r-2>mine</span>, not <span class=r-2>yours</span>. "
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/15.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -367,7 +375,7 @@
               .col-lg-4
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="I have a bag."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/16.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -375,7 +383,7 @@
               .col-lg-4
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="This is <span class=r-3>my</span> bag. "
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/17.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -387,7 +395,7 @@
               .col-lg-4
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="The bag is <span class=r-3>mine.</span>"
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/18.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -406,16 +414,18 @@
                   img.rounded-3(src='@/assets/curso/temas/17.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto=" My dress is beautiful."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/19.mp3')"
                 )
               p.ms-4 Mi vestido es hermoso.
             .tarjeta.color-primario.bg-claro.p-4
               .row.justify-content-center.mb-3
                 .col-10
                   img.rounded-3(src='@/assets/curso/temas/18.jpg' alt='AvatarTop')
+              //TODO! AUDIO NO ESTA
+              
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The dress is mine. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                 )
               p.ms-4 El vestido es mío.
             .tarjeta.color-primario.bg-claro.p-4
@@ -424,7 +434,7 @@
                   img.rounded-3(src='@/assets/curso/temas/19.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Your dog is old. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/21.mp3')"
                 )
               p.ms-4 Tu perro es viejo.
             .tarjeta.color-primario.bg-claro.p-4
@@ -433,7 +443,7 @@
                   img.rounded-3(src='@/assets/curso/temas/20.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The dog is yours. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/22.mp3')"
                 )
               p.ms-4 El perro es tuyo.
             .tarjeta.color-primario.bg-claro.p-4
@@ -442,7 +452,7 @@
                   img.rounded-3(src='@/assets/curso/temas/21.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The car is his. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/23.mp3')"
                 )
               p.ms-4 El coche es suyo. (de él)
             .tarjeta.color-primario.bg-claro.p-4
@@ -451,7 +461,7 @@
                   img.rounded-3(src='@/assets/curso/temas/22.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Her cat is fat. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/24.mp3')"
                 )
               p.ms-4  Su gato es gordo.
             .tarjeta.color-primario.bg-claro.p-4
@@ -460,7 +470,7 @@
                   img.rounded-3(src='@/assets/curso/temas/23.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The cat is hers. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/25.mp3')"
                 )
               p.ms-4 El gato es suyo (de ella).
             .tarjeta.color-primario.bg-claro.p-4
@@ -469,7 +479,7 @@
                   img.rounded-3(src='@/assets/curso/temas/24.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Its nest is small. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/26.mp3')"
                 )
               p.ms-4 Su nido es pequeño.
                 br
@@ -481,16 +491,17 @@
                   img.rounded-3(src='@/assets/curso/temas/25.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Our parrot is colorful."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/27.mp3')"
                 )
               p.ms-4 Nuestro loro es colorido.
             .tarjeta.color-primario.bg-claro.p-4
               .row.justify-content-center.mb-3
                 .col-10
                   img.rounded-3(src='@/assets/curso/temas/26.jpg' alt='AvatarTop')
+              //TODO! AUDIO NO ESTA
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The parrot is ours."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                 )
               p.ms-4 El loro es nuestro.
             .tarjeta.color-primario.bg-claro.p-4
@@ -499,7 +510,7 @@
                   img.rounded-3(src='@/assets/curso/temas/27.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Your book is interesting. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/29.mp3')"
                 )
               p.ms-4 Su libro es interesante.
             .tarjeta.color-primario.bg-claro.p-4
@@ -508,7 +519,7 @@
                   img.rounded-3(src='@/assets/curso/temas/28.jpg' alt='AvatarTop')
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The book is yours"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/30.mp3')"
                 )
               p.ms-4 El libro es suyo (de ustedes).
     .row.justify-content-center.align-items-end.mb-3
@@ -520,12 +531,12 @@
           .col-lg-7
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Their restaurant is amazing. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/31.mp3')"
                 )
             p.ms-4 Su restaurante es increíble.
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The restaurant is theirs. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/32.mp3')"
                 )
             p.ms-4 El restaurante es suyo (de ellos).
         p.mb-3(data-aos='fade-right') Se pueden usar pronombres posesivos después de “of”.
@@ -534,7 +545,7 @@
           .col-lg-8
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Susan is one of my friends. Susan is a friend of mine."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/33.mp3')"
                 )
             p.ms-4 Susan es una de mis amigas. Susan es una amiga mía.
         .d-flex
@@ -573,7 +584,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="This is <span class=r-2>Hector’s</span> briefcase."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/34.mp3')"
                 )
             p.ms-4 Este es el maletín de 
               span.r-3 Hector.
@@ -582,7 +593,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Where is the <span class=r-2>cat’s</span> toy?"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/35.mp3')"
                 )
             p.ms-4 ¿Dónde está el juguete 
               span.r-3 del gato?
@@ -591,7 +602,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Is that your <span class=r-2>sister’s</span> jacket?"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/36.mp3')"
                 )
             p.ms-4 ¿Esa es la chaqueta de 
               span.r-3 tu hermana?
@@ -605,7 +616,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="<span class= r-2>My boss’s</span> car is expensive."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/37.mp3')"
                 )
             p.ms-4 El carro de 
               span.r-3 mi jefe 
@@ -615,7 +626,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="I love <span class= r-2>that actress’s</span> movie."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/38.mp3')"
                 )
             p.ms-4 Me encanta la película 
               span.r-3 de esa actriz.
@@ -624,7 +635,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="<span class= r-2>The waitress’s</span> uniform is very clean. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/39.mp3')"
                 )
             p.ms-4 El uniforme 
               span.r-3 de la mesera 
@@ -641,7 +652,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Those are <span class= r-2>our fathers’</span> briefcases."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/40.mp3')"
                 )
             p.ms-4 Esos son los maletines 
               span.r-3 de nuestros padres.
@@ -650,7 +661,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Where is <span class= r-2>the cats’</span> toy?"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/41.mp3')"
                 )
             p.ms-4 ¿Dónde está el juguete 
               span.r-3 de los gatos?
@@ -659,7 +670,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Are those <span class= r-2>your sisters’</span> jackets? "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/42.mp3')"
                 )
             p.ms-4 ¿Esas son las chaquetas 
               span.r-3 de tus hermanas?
@@ -675,7 +686,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="<span class= r-3>People’s</span> rights are important. "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/43.mp3')"
                 )
             p.ms-4 Los derechos 
               span.r-3 de las personas 
@@ -685,7 +696,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Today I buy <span class= r-3>the children’s</span> costumes."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/44.mp3')"
                 )
             p.ms-4 Hoy compro los disfraces 
               span.r-3 de los niños.
@@ -694,7 +705,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Where is the <span class= r-3>women’s</span> bathroom? "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/45.mp3')"
                 )
             p.ms-4 ¿Dónde está el baño 
               span.r-3 de mujeres?
@@ -706,17 +717,19 @@
         .row.justify-content-center.mb-2.align-items-start
           .col-lg-4
             .d-flex.align-items-center
+              //TODO NO HAY AUDIO PARA ESTE EJERCICIO
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is this James’ job? "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p ¿Este es el trabajo de James?
           .col-lg-5
             .d-flex.align-items-center
+              //TODO NO HAY AUDIO PARA ESTE EJERCICIO
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is this James’s job?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
         .row.justify-content-center.mb-2
@@ -725,7 +738,7 @@
               .d-flex.align-items-center
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="I know Charles’ brother. "
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/48.mp3')"
                     )
                 img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
               p Yo conozco al hermano de Charles.
@@ -733,7 +746,7 @@
             .d-flex.align-items-center
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I know Charles’s brother."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/49.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
         .row.justify-content-center.mb-2
@@ -741,7 +754,7 @@
             .d-flex.align-items-center
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I don’t like Chris’ boots."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/50.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p No me gustan las botas de Chris.
@@ -749,7 +762,7 @@
             .d-flex.align-items-center
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I don’t like Chris’s boots."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/51.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
       .tarjeta.color-secundario--borde.p-4(titulo="For two or more people")
@@ -763,7 +776,7 @@
             .d-flex.align-items-center 
               TarjetaAudio.color-acento-contenido.mb-3.me-3.bg-white(
                     texto="James and Gloria’s apartment is big. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/52.mp3')"
                   )
               p (Dos dueños de un mismo apartamento)
             p.ms-4 El apartamento de James y Gloria es grande.
@@ -773,7 +786,7 @@
             .d-flex.align-items-center
               TarjetaAudio.color-acento-contenido.mb-3.me-3.bg-white(
                     texto="James’ and Gloria’s apartments are big."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/53.mp3')"
                   )
               p (Dos dueños de dos apartamentos diferentes)
             p.ms-4 Los apartamentos de James y de Gloria son grandes.
@@ -788,7 +801,7 @@
           .col-lg-8
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="<span class= r-2>The President of Denmark’s</span> speech was inspiring."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/54.mp3')"
                 )
             p.ms-4 El discurso del presidente de Dinamarca fue inspirador.
         .row.justify-content-center.mb-2.align-items-center
@@ -796,7 +809,7 @@
           .col-lg-8
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="I had to give a <span class= r-2>two weeks’</span> notice before leaving my job."
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/55.mp3')"
                 )
             p.ms-4 Tuve que dar un aviso de dos semanas antes de dejar mi trabajo.
       .tarjeta.color-secundario--borde.p-4(titulo="No noun after the apostrophe S")
@@ -807,9 +820,10 @@
         .row.mb-2.align-items-center
           .col-lg-3: img.mb-5(src='@/assets/curso/temas/48.svg', alt='')
           .col-lg-8
+            //TODO NO HAY AUDIO PARA ESTE EJERCICIO
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="My boat is faster than <span class= r-2>Oscar’s.</span> "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                 )
             p.ms-4 Mi barco es más rápido que el 
               span.r-3 de Oscar.
@@ -818,13 +832,15 @@
           .col-lg-4
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Whose cell phone is this? "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/57.mp3')"
                 )
             p.ms-4 ¿De quién es este celular?
           .col-lg-4
+
+            //TODO NO HAY AUDIO PARA ESTE EJERCICIO
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="It is <span class= r-2>Sofia’s.</span>"
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
                 )
             p.ms-4 Es 
               span.r-3 de Sofía.
@@ -834,7 +850,7 @@
             .d-flex.align-items-center.mb-3
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="It is <span class= r-2>Sofia’s</span> cell phone. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/59.mp3')"
                   )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p.ms-3 Es el celular 
@@ -843,7 +859,7 @@
             p En este caso la palabra “cell phone” -celular- no es necesariamente repetitiva.
               span.r-2.fst-bold * Ambas respuestas son correctas.
     p.mb-5(data-aos='fade-right') Adicional a las reglas que se tienen en cuenta en el uso, es ideal tener precaución en las siguientes advertencias para el uso adecuado: 
-    TabsC.color-secundario
+    TabsC.color-secundario.mb-5
       .tarjeta.color-acento-contenido.bg-claro.rounded-0.p-5(titulo="Warning #1")
         .row.align-items-center.justify-content-center
           .col-md-4.mb-4.mb-md-0
@@ -879,7 +895,7 @@
               .col-lg-8
                 TarjetaAudio.color-acento-contenido.bg-white(
                     texto="The Great Wall of China. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/60.mp3')"
                   )
                 p.ms-3 La gran muralla china.
                 .d-flex.align-items-center
@@ -891,12 +907,13 @@
           .col-lg-2: img(src='@/assets/curso/temas/54.svg', alt='') 
           .col-lg-6
             .d-flex.align-items-center.mb-3
-              p.mb-0 He spent years studying Colombia’s history.
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              p.mb-0 He spent years studying Colombia’s history. 
+              // audio 65
+              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3 
             .d-flex.align-items-center.mb-3
               TarjetaAudio.color-acento-contenido.bg-white(
                   texto="He spent years studying the history of Colombia.  "
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/65.mp3')"
                 )
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p.ms-3 Él pasó años estudiando la historia de Colombia.
@@ -913,7 +930,7 @@
                 .d-flex.align-items-center
                   TarjetaAudio.color-acento-contenido.bg-white(
                       texto="The end of the road.  "
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/62.mp3')"
                     )
                   img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
                   
@@ -945,7 +962,7 @@
               div.mb-0
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="I must check the window of the airplane.   "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/63.mp3')"
                   )
                 p.ms-3 Debo revisar la ventana del avión.
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
@@ -955,12 +972,30 @@
               div.mb-0
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="Hail cannot damage the airplane window.  "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/64.mp3')"
                   )
                 p.ms-3 El granizo no puede dañar la ventana del avión.
               img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
               
-            
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>Whose is each thing?</em> / ¿De quién es cada cosa?
+        p.mb-4 Practicar la posesión de algo a través de los adjetivos posesivos y los pronombres posesivos y que cada oración tenga sentido.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple, única respuesta.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece        
 
 
 

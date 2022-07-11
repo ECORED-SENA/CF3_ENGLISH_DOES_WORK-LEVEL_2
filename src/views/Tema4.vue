@@ -47,7 +47,7 @@
         h5
           span.r-3 Sunday
         p.mb-0 Domingo
-      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/1.mp3')")
     .row.justify-content-center.mb-5
       .col-lg-5
         img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/127.jpg', alt='')
@@ -67,7 +67,7 @@
           img(src='@/assets/curso/temas/128.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="My sister studies on Saturdays. "
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema4/1.mp3')"
           )
           p Mi hermana estudia los sábados.
       .col-lg-4.mb-lg-0.mb-3
@@ -75,7 +75,7 @@
           img(src='@/assets/curso/temas/129.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I visit my parents on Sunday."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema4/2.mp3')"
           )
           p Yo visito a mis papás el domingo.
       .col-lg-4.mb-lg-0.mb-3
@@ -83,7 +83,7 @@
           img(src='@/assets/curso/temas/130.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Sara works on weekdays. "
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema4/3.mp3')"
           )
           p Sara trabaja entre semana.
     Separador
@@ -156,7 +156,7 @@
               p.mb-0 Diciembre
         .col-lg-2
           .tarjeta(style='background-color: #a6bbff ').p-4.d-flex.justify-content-center
-            Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+            Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/1.mp3')")
     .row.justify-content-center.mb-5.g-0
       .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/133.jpg', alt='')
       .col-lg-8
@@ -177,13 +177,13 @@
             .col-lg-6 
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="David graduated on December 15, 2016.  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/4.mp3')"
               )
               p David se graduó el 15 de diciembre de 2016.
             .col-lg-6 
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My sister got married on January 25, 2022.  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/5.mp3')"
               )
               p Mi hermana se casó el 25 de enero de 2022.
     Separador
@@ -197,58 +197,76 @@
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="32.5%" y="17%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="In few minutes  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/6.mp3')"
               )
         p En unos pocos minutos
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="68.5%" y="17%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="At the moment  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/7.mp3')"
               )
         p En el momento
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="21.5%" y="38.7%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto=" Next week "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/8.mp3')"
               )
         p La próxima semana
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="79%" y="38.7%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Right now  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/9.mp3')"
               )
         p Justo ahora
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="21.5%" y="55.5%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Next month "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/10.mp3')"
               )
         p El próximo mes
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="79%" y="55.5%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Now  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/11.mp3')"
               )
         p Ahora
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="26.5%" y="75.5%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Next year "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/12.mp3')"
               )
         p El próximo año
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="75%" y="75.5%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="Tomorrow  "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/13.mp3')"
               )
         p Mañana
       .tarjeta.color-acento-contenido--borde.p-3.border-3(x="51%" y="90.5%" numero="+" style='background-color: #ffdfe0')
         TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="The day after tomorrow "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/14.mp3')"
               )
         p Pasado mañana
-
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>When do these things take place?</em> / ¿Cuándo se llevan a cabo estas cosas?
+        p.mb-4 Fortalecer el uso de las referencias temporales para un mejor discurso y que se entienda en qué momento en particular se llevaron a cabo algunas acciones. 
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad4/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 
 </template>

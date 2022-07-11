@@ -114,7 +114,7 @@
             span.r-3.fst-italic Sing 
           p.mb-0 Cantar
     .tarjeta.p-4.d-flex.align-items-center(style='background-color: #ffdfe0').mb-4
-      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')").me-4
+      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema6/1.mp3')").me-4
       p.mb-0 Ahora escucha, repite y revisa de nuevo el vocabulario: 
     h5 ¿Cómo usar las actividades según la expresión?
     p.mb-5(data-aos='fade-right')  Ahora, cada una de las actividades puede usarse de acuerdo con la expresión. Revisemos: 
@@ -132,13 +132,13 @@
               .col-lg-6.mb-lg-0.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="I do yoga with my friends. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/1.mp3')"
                 )
                 p Yo hago yoga con mis amigos.
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We take photos on our trips. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/2.mp3')"
                 )
                 p Nosotros tomamos fotos en nuestros viajes.
       .row.p-3(titulo="Case 2" :icono="require('@/assets/curso/temas/193.svg')" style='background-color= #e1e8fe !important') 
@@ -151,16 +151,17 @@
               br
               span.fst-italic.fw-bold For example: 
             .row.justify-content-center
+             
               .col-lg-6.mb-lg-0.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="My favorite hobby is doing yoga."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/3.mp3')"
                 )
                 p Mi pasatiempo favorito es hacer yoga.
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="My favorite activities are singing, taking photos and texting."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/4.mp3')"
                 )
                 p Mis actividades favoritas son cantar, tomar fotos y enviar mensajes de texto.
       .row.p-3(titulo="Case 3" :icono="require('@/assets/curso/temas/194.svg')" style='background-color= #e1e8fe !important') 
@@ -176,16 +177,34 @@
               .col-lg-6.mb-lg-0.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="I like to play video games."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/5.mp3')"
                 )
                 p  Me gusta jugar videojuegos.
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We love to sing."
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/6.mp3')"
                 )
                 p Nos encanta cantar.
-
+    titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>In my free time I...</em> / En mi tiempo libre yo...
+        p.mb-4 Reforzar el conocimiento sobre la forma en que se presentan las actividades y su expresión.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Banco de palabras.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad6/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 
 

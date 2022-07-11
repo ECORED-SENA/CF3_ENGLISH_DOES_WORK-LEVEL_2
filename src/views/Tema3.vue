@@ -67,7 +67,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="She eats breakfast at 8:00 am."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/1.mp3')"
                   )
               p.ms-3 Ella desayuna a las 8:00 am.
           p.fw-bold.text-white Fiestas y festivales sin la palabra “day”
@@ -76,7 +76,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="We travel to Colombia at Christmas."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/2.mp3')"
                   )
               p.ms-3  Nosotras viajamos a Colombia en navidad.
           p.fw-bold.text-white Momentos concretos del día
@@ -85,7 +85,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="I watch tv at night."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/3.mp3')"
                   )
               p.ms-3 Yo miro televisión por la noche. 
       .row.justify-content-center.align-items-center(x="76%" y="45%" tooltip="" numero="+")
@@ -134,7 +134,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="Diana has a job interview on Monday."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/4.mp3')"
                   )
               p.ms-3 Diana tiene una entrevista de trabajo el lunes.
           p.fw-bold.text-white Días especiales con la palabra “day”
@@ -143,7 +143,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="We are going to rest on Labor day."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/5.mp3')"
                   )
               p.ms-3 Nosotros vamos a descansar el día del trabajo.
           p.fw-bold.text-white Fechas concretas
@@ -152,7 +152,7 @@
             .sonido
               TarjetaAudio.color-acento-contenido.bg-white(
                     texto="They have a test on June 20."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/6.mp3')"
                   )
               p.ms-3 Ellos tienen un examen el 20 de junio.
       .row.justify-content-center(x="76%" y="73%" tooltip="" numero="+")
@@ -227,7 +227,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="They travel to Europe in 6 weeks."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/7.mp3')"
                     )
                 p.ms-3  Ellos viajan a Europa en 6 semanas.
           .col-lg-6
@@ -237,7 +237,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="I graduated in 2006."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/8.mp3')"
                     )
                 p.ms-3 Yo me gradué en 2006.
         .row.justify-content-center.align-items-center.mb-3
@@ -248,7 +248,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Oscar drinks coffee in the morning."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/9.mp3')"
                     )
                 p.ms-3 Oscar bebe café por la mañana.
           .col-lg-6
@@ -258,7 +258,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Pop was the most popular music genre in the 80s."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/10.mp3')"
                     )
                 p.ms-3 El pop fue el género musical más popular en los años 80.
         .row.justify-content-center.align-items-center.mb-3
@@ -269,7 +269,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="My grandma plants vegetables in April."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/11.mp3')"
                     )
                 p.ms-3 Mi abuela planta verduras en abril.
           .col-lg-6
@@ -279,7 +279,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="In the 21st century, there are many scientific advances."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/12.mp3')"
                     )
                 p.ms-3 En el siglo XXI, hay muchos avances científicos.
         .row.justify-content-center.mb-3
@@ -290,7 +290,7 @@
               .sonido.mb-3
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="Sandra always goes to the beach in the summer."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/audio/tema3/13.mp3')"
                     )
                 p.ms-3 Sandra siempre va a la playa en verano.
     p.mb-5(data-aos='fade-right') Es importante tener en cuenta que, de acuerdo con el contexto, se deben tener en cuenta algunas advertencias:
@@ -377,7 +377,7 @@
           img(src='@/assets/curso/temas/112.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I get up every day before dawn."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/14.mp3')"
           )
           p Me levanto todos los días antes del amanecer.
       .col-lg-4.mb-lg-0.mb-5
@@ -388,7 +388,7 @@
           img(src='@/assets/curso/temas/113.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Simon sometimes comes after lunch."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/15.mp3')"
           )
           p Simón viene a veces después del almuerzo.
       .col-lg-4.mb-lg-0.mb-5
@@ -399,7 +399,7 @@
           img(src='@/assets/curso/temas/114.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="The dentist is not available until August."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/16.mp3')"
           )
           p El dentista no está disponible hasta agosto.
     .row.justify-content-center.mb-5
@@ -411,7 +411,7 @@
           img(src='@/assets/curso/temas/115.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto=" We are friends since we met 2 years ago."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/17.mp3')"
           )
           p Somos amigos desde que nos conocimos hace 2 años.
       .col-lg-4.mb-lg-0.mb-5
@@ -422,7 +422,7 @@
           img(src='@/assets/curso/temas/116.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Power usually goes out during snow storms."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/18.mp3')"
           )
           p La energía generalmente se va durante las tormentas de nieve.
       .col-lg-4.mb-lg-0.mb-5
@@ -433,7 +433,7 @@
           img(src='@/assets/curso/temas/117.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I’m going to the gym for two hours."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/19.mp3')"
           )
           p  Voy a ir al gimnasio por dos horas.
     .row.justify-content-center.mb-5
@@ -445,7 +445,7 @@
           img(src='@/assets/curso/temas/118.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Julia works from 6 a.m. to 4 p.m."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/20.mp3')"
           )
           p Julia trabaja de 6 a.m. a 4 p.m.
       .col-lg-4.mb-lg-0.mb-5
@@ -456,7 +456,7 @@
           img(src='@/assets/curso/temas/119.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Linda promised to be back by two o’clock."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/21.mp3')"
           )
           p Linda prometió estar de vuelta a las dos.
       .col-lg-4.mb-lg-0.mb-5
@@ -465,9 +465,10 @@
             .card-title__div-title.p-3.m-auto
               h6.mb-0 Up to → hasta
           img(src='@/assets/curso/temas/120.svg', alt='' style='width: 173px').m-auto
+          //TODO FALTA AUDIO 
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Up to now she is still quiet."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/1.mp3')"
           )
           p Hasta ahora sigue callada.
     .row.justify-content-start.mb-5
@@ -479,7 +480,7 @@
           img(src='@/assets/curso/temas/121.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I lived in Barranquilla between 2000 and 2008."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/23.mp3')"
           )
           p Viví en Barranquilla entre 2000 y 2008.
       .col-lg-4.mb-lg-0.mb-5
@@ -490,7 +491,7 @@
           img(src='@/assets/curso/temas/122.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="You will receive the notification within 5 business days."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/24.mp3')"
           )
           p Usted recibirá la notificación dentro de 5 días hábiles.
     .tarjeta.rounded-0.bg-claro.color-primario.p-5
@@ -520,13 +521,13 @@
                 .col-lg-5.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When is he planning to go?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/25.mp3')"
                   )
                   p.ms-3 ¿Cuándo planea él ir?
                 .col-lg-7
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When will Sofia arrive in Bucaramanga?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/26.mp3')"
                   )
                   p.ms-3 ¿Cuándo llegará Sofía a Bucaramanga?
         .row.justify-content-center.align-items-end
@@ -542,12 +543,12 @@
                 .col-lg-7
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When I was a little girl, I used to love teddy bears."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/27.mp3')"
                   )
                   p.ms-3 Cuando era una niña pequeña, me solían encantar los ositos de peluche.
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="They were having breakfast when the doorbell rang."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/28.mp3')"
                   )
                   p.ms-3 Ellos estaban desayunando cuando sonó el timbre.
                 .col-lg-5.mb-lg-0.mb-3
@@ -555,9 +556,10 @@
               p Se debe tener en cuenta que la oración puede comenzar con “when” y significa lo mismo incluso si se invierte el orden de las cláusulas y la ubicación de “when” cambia en la oración:
               .row.justify-content-center.mb-5
                 .col-lg-8
+                  // TODO audio 39
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
-                      texto="When I was a little girl, I used to love teddy bears."
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      texto="I used to love teddy bears when I was a little girl."
+                      :audio="require('@/assets/curso/audio/tema3/39.mp3')"
                     )
                   p.ms-3 I used to love teddy bears when I was a little girl.
         .row.justify-content-center.align-items-end
@@ -573,7 +575,7 @@
                 .col-lg-7.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="Sara will be at the office when David gets home."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/30.mp3')"
                   )
                   p.ms-3 Sara estará en la oficina cuando David llegue a casa.         
                 .col-lg-5.mb-lg-0.mb-3
@@ -583,7 +585,7 @@
                 .col-lg-7.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When I have more time, I will go to the cinema."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/31.mp3')"
                   )
                   p.ms-3 Cuando tenga más tiempo, iré al cine.  
                 .col-lg-5.mb-lg-0.mb-3
@@ -602,13 +604,13 @@
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When should you apologize to someone?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/32.mp3')"
                   )
                   p.ms-3 ¿Cuándo deberías disculparte con alguien?     
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When are they supposed to go to the doctor?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/33.mp3')"
                   )
                   p.ms-3 ¿Cuándo se supone que ellos vayan al médico?
               h5
@@ -617,13 +619,13 @@
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="She did not specify when you should apologize to someone."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/34.mp3')"
                   )
                   p.ms-3 Ella no especificó cuándo debes disculparte con alguien.        
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="It is important to know when to go to the doctor."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/35.mp3')"
                   )
                   p.ms-3  Es importante saber cuándo acudir al médico.
         .row.justify-content-center.align-items-end
@@ -639,7 +641,7 @@
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="Food tastes best when it is hot."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/36.mp3')"
                   )
                   p.ms-3  La comida sabe mejor cuando está caliente.
                 .col-lg-3: img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/126.svg', alt='')
@@ -656,17 +658,35 @@
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="When I drive my car, I always wear the seat belt."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/37.mp3')"
                   )
                   p.ms-3 Cuando conduzco mi coche, siempre uso el cinturón de seguridad.
                 .col-lg-6.mb-lg-0.mb-3
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="I always wear the seat belt while driving my car."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema3/38.mp3')"
                   )
                   p.ms-3 Siempre uso el cinturón de seguridad mientras conduzco mi automóvil.
               p.mb-3 Si bien en este caso no hay una gran diferencia en el mensaje que se transmite, hay una diferencia sutil en ambas declaraciones. Es mejor usar <em><b>“when”</b></em> para referirse a cosas que pasan durante un período de tiempo determinado, y <em><b>“while”</b></em> en oraciones que hablan de dos acciones que ocurren de manera simultánea.
-
+    titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>At what time?</em> / ¿En qué momento?
+        p.mb-4 Reforzar el uso de las preposiciones de tiempo de acuerdo con las oraciones de información sobre lo que sucede o en el momento en que se realiza una acción.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple, única respuesta.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad3/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 
 

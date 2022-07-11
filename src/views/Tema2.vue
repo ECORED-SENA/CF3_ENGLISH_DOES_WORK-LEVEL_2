@@ -52,9 +52,10 @@
         .row.justify-content-center.mb-5
           .col-lg-6
             .tarjeta.color-primario.bg-claro.p-5.h-100
+              //!TODO NO HAY AUDIO 
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="She is <span class=r-2>working</span> at the hospital."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -63,9 +64,11 @@
                 | en el hospital.
           .col-lg-6
             .tarjeta.color-primario.bg-claro.p-5.h-100
+              //!TODO NO HAY AUDIO 
+
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I am <span class=r-2>fishing</span> in the lake. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -100,7 +103,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I am <span class=r-2>making</span> dinner. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -110,7 +113,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Luisa and Diego are <span class=r-2>dancing</span> in the rain. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/4.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -143,7 +146,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="He is <span class= r-2>lying</span> to you. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/5.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -152,7 +155,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="The sailors are <span class= r-2>tying</span> the ship’s ropes. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/6.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -185,7 +188,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You’re not <span class= r-2>stopping</span> the fight. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/7.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -195,7 +198,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is Mariana <span class= r-2>running</span> the marathon? "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/8.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -228,7 +231,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="My sister is <span class= r-2>studying</span> English and French. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/9.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -238,7 +241,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We think someone is <span class= r-2>following</span> us. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/10.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -275,7 +278,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We are <span class= r-2>visiting</span> the Egyptian museum. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/11.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -285,7 +288,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Fabio is <span class= r-2>listening</span> to classical music. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/12.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -346,7 +349,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you <span class= r-2>admitting</span> that you were wrong? "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/13.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -356,7 +359,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I’m <span class= r-2>submitting</span> my application via email."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/14.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -406,7 +409,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We are <span class= r-2>traveling</span> around Colombia. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/15.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -416,7 +419,7 @@
           .col-lg-6
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Rosa is <span class= r-2>controlling</span> her weight with exercise. "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/16.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -458,52 +461,52 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I am drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/17.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="It is drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/18.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/19.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We are drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/20.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="He is drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/21.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/22.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="She is drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/23.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="They are drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/24.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
             p.mb-3 Recuerde que se puede contraer el sujeto con el verbo to be:
@@ -542,52 +545,56 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="I am not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/25.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="It is not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/26.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )        
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/27.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
+                //TODO! NO HAY AUDIO 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We are not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )        
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="He is not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/29.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
+                //TODO! NO HAY AUDIO 
+
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )        
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="She is not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/31.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
+                // AUDIO 43 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="They are not drinking water."
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/32.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )   
             p.mb-3 Se puede contraer el verbo to be con la partícula de negación <b>“not”:</b>
@@ -618,61 +625,63 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Am I drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/33.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is it drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/34.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )  
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/35.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are we drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/36.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )  
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is he drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/37.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/38.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )  
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is she drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/39.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are they drinking water?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/40.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )  
             p.mb-4 Cuando se da una respuesta corta a una pregunta, es normal mencionar el verbo auxiliar to be, pero no el verbo principal -ing.
             p.fw-bold.fst-italic For example: 
             .row.justify-content-center.mb-2
               .col-lg-5
+                //TODO! NO HAY AUDIO 
+
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you studying engineering?"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p.ms-4 ¿Estás estudiando ingeniería?
@@ -686,7 +695,7 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is Susana working at the bookstore? "
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/42.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   ) 
                 p.ms-4 ¿Susana está trabajando en la librería?
@@ -828,14 +837,15 @@
             .col-lg-9
               p.mb-0 Hay verbos que pueden hacer referencia a estados o acciones, según el contexto. En estos casos especiales, la conjugación en presente continuo depende del significado del verbo en esa oración en particular.
       .col-lg-4.col-8: img(src='@/assets/curso/temas/68.jpg', alt='')
-    .bg-claro1.p-5.margin-n
+    .bg-claro1.p-5.margin-n.mb-5
       p.fw-bold.fst-italic.text-center For example: 
       .row.justify-content-center.mb-3
         .col-lg-3.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/69.svg', alt='').mb-4
+          // TODO Audio 49 
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto="She has an old house. "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/49.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 Ella tiene una casa antigua.
@@ -845,7 +855,7 @@
           img(src='@/assets/curso/temas/70.svg', alt='').mb-4
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto="Jonas is having a small break."
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/44.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 Jonas está teniendo un pequeño descanso.
@@ -855,7 +865,7 @@
           img(src='@/assets/curso/temas/71.svg', alt='').mb-4
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto=" Does he see any issues with that?"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/45.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 ¿Él ve algún problema con eso? 
@@ -865,7 +875,7 @@
           img(src='@/assets/curso/temas/72.svg', alt='').mb-4
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto="We’re seeing Carlos tomorrow"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/46.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 Nos vemos con Carlos mañana.
@@ -879,7 +889,7 @@
           img(src='@/assets/curso/temas/73.svg', alt='').mb-4
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto=" These empanadas taste delicious. "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/47.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 Estas empanadas saben delicioso. 
@@ -889,13 +899,31 @@
           img(src='@/assets/curso/temas/74.svg', alt='').mb-4
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto="The chef is tasting the dessert. "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema2/48.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           p.ms-4 El chef está probando el postre. 
             br
             |<b>(acción – probar el postre es una actividad)</b>
-
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>Are we doing this?</em> / ¿Estamos haciendo esto?
+        p.mb-4 Repasar el presente continuo a través de oraciones que expresan acciones o eventos que están en progreso, repitiéndose con frecuencia o de naturaleza temporal.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Falso o Verdadero.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece 
 
 
 

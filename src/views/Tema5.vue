@@ -77,7 +77,7 @@
         .col-lg-4.mb-3.mb-lg-0
             .tarjeta.no-repeat.h-100.w-100.d-flex.justify-content-center
               .tarjeta(style='background-color: #f3f9ff !important').p-5
-                Audio.color-acento-contenido.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+                Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
     .tarjeta.bg-claro.margin-n.p-5.rounded-0(style='background-color: #c4d1ff !important').mb-5 
       .row.justify-content-center.mb-3
         .col-lg-4.mblg-4.mb-3.mb-lg-0
@@ -141,7 +141,7 @@
         .col-lg-4.mb-3.mb-lg-0
             .tarjeta.no-repeat.h-100.w-100.d-flex.justify-content-center
               .tarjeta(style='background-color: #f3f9ff !important').p-5
-                Audio.color-secundario.mx-3(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+                Audio.color-secundario.mx-3(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
     p.mb-5(data-aos='fade-right').text-center.fw-bold Ahora, algunos ejemplos: 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3
@@ -152,13 +152,13 @@
             .col-lg-6.mb-lg-0.mb-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My sister lives with my aunt."
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema5/1.mp3')"
               )
               p Mi hermana vive con mi tía.
             .col-lg-6
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My cousin visits her brother on weekends."
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema5/2.mp3')"
               )
               p Mi prima visita a su hermano los fines de semana.
         .tarjeta.p-4(style='background-color: #e1e8ff').mb-3
@@ -166,13 +166,13 @@
             .col-lg-6.mb-lg-0.mb-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My father calls his uncle every two weeks."
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema5/3.mp3')"
               )
               p Mi padre llama a su tío cada dos semanas.
             .col-lg-6
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My grandmother cooks for her nephews"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema5/4.mp3')"
               )
               p Mi abuela cocina para sus sobrinos.
         .tarjeta.p-4(style='background-color: #c7d2f9').mb-3
@@ -180,7 +180,7 @@
             .col-lg-6.mb-lg-0.mb-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My mother works with her niece. "
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/curso/audio/tema5/5.mp3')"
               )
               p Mi madre trabaja con su sobrina.
     Separador
@@ -215,7 +215,7 @@
           span.r-3.fst-italic Sister-in-law
         p.mb-0 Cuñada
       .card-audios__items.tarjeta.d-inline-block.p-4.text-center
-        Audio.color-acento-contenido.mx-2(:audio="require('@/assets/componentes/audios/audio-ej.mp3')")
+        Audio.color-acento-contenido.mx-2(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
     p.fst-italic.fw-bold For example:   
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
@@ -223,7 +223,7 @@
           img(src='@/assets/curso/temas/153.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="My sister-in-law visits my wife on Saturdays."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema5/6.mp3')"
           )
           p Mi cuñada visita a mi esposa los sábados.
       .col-lg-4.mb-lg-0.mb-3
@@ -231,7 +231,7 @@
           img(src='@/assets/curso/temas/154.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I cook for my mother-in-law on weekends"
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema5/7.mp3')"
           )
           p Cocino para mi suegra los fines de semana.
       .col-lg-4.mb-lg-0.mb-3
@@ -239,7 +239,7 @@
           img(src='@/assets/curso/temas/155.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="We travel with our brother-in-law in summer. "
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/curso/audio/tema5/8.mp3')"
           )
           p  Viajamos con nuestro cuñado en verano.
     Separador 
@@ -319,7 +319,7 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="Maria has 3 siblings: 1 brother and 2 sisters. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/9.mp3')"
               )
               p María tiene 3 hermanos: 1 hermano y 2 hermanas.
           .tarjeta.p-5(style='background-color: #e1e8ff')
@@ -327,7 +327,7 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="My parents work in different places: my mother has a restaurant and my father sells cars.  "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/10.mp3')"
               )
               p Mis padres trabajan en lugares diferentes: mi madre tiene un restaurante y mi padre vende autos.
           .tarjeta.p-5(style='background-color: #e1e8ff')
@@ -335,7 +335,7 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="Carlos has 2 sisters; he is the only boy. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/11.mp3')"
               )
               p Carlos tiene 2 hermanas; él es el único niño.
           .tarjeta.p-5(style='background-color: #e1e8ff')
@@ -343,7 +343,7 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="Sara has 3 children: 2 boys and 1 girl. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/12.mp3')"
               )
               p Sara tiene 3 hijos: 2 niños y 1 niña.
           .tarjeta.p-5(style='background-color: #e1e8ff')
@@ -351,10 +351,28 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="My cousins are Carlos and Martha. "
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/13.mp3')"
               )
               p Mis primos son Carlos y Martha.
-
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 Actividad didáctica
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>Tell me who you are related to</em> / Dime con quién estás emparentado
+        p.mb-4 Consolidar la apropiación del vocabulario relacionado con la familia.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Opción múltiple, única respuesta.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad5/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 
 </template>
 
