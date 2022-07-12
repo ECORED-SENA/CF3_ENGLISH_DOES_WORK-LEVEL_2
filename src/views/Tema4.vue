@@ -47,7 +47,7 @@
         h5
           span.r-3 Sunday
         p.mb-0 Domingo
-      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/1.mp3')")
+      Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/days.mp3')")
     .row.justify-content-center.mb-5
       .col-lg-5
         img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/127.jpg', alt='')
@@ -156,7 +156,7 @@
               p.mb-0 Diciembre
         .col-lg-2
           .tarjeta(style='background-color: #a6bbff ').p-4.d-flex.justify-content-center
-            Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/1.mp3')")
+            Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema4/months.mp3')")
     .row.justify-content-center.mb-5.g-0
       .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/133.jpg', alt='')
       .col-lg-8

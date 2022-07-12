@@ -180,10 +180,11 @@
                 :audio="require('@/assets/curso/audio/tema6/5.mp3')"
                 )
                 p  Me gusta jugar videojuegos.
+              //TODO EL AUDIO ESTA ERRADO!!
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We love to sing."
-                :audio="require('@/assets/curso/audio/tema6/6.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/lovesing.mp3')"
                 )
                 p Nos encanta cantar.
     titulo-segundo.color-acento-contenido(data-aos='fade-right')

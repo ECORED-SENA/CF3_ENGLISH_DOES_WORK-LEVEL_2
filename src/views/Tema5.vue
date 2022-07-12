@@ -77,7 +77,7 @@
         .col-lg-4.mb-3.mb-lg-0
             .tarjeta.no-repeat.h-100.w-100.d-flex.justify-content-center
               .tarjeta(style='background-color: #f3f9ff !important').p-5
-                Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
+                Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audio/tema5/female.mp3')")
     .tarjeta.bg-claro.margin-n.p-5.rounded-0(style='background-color: #c4d1ff !important').mb-5 
       .row.justify-content-center.mb-3
         .col-lg-4.mblg-4.mb-3.mb-lg-0
@@ -141,7 +141,7 @@
         .col-lg-4.mb-3.mb-lg-0
             .tarjeta.no-repeat.h-100.w-100.d-flex.justify-content-center
               .tarjeta(style='background-color: #f3f9ff !important').p-5
-                Audio.color-secundario.mx-3(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
+                Audio.color-secundario.mx-3(:audio="require('@/assets/curso/audio/tema5/male.mp3')")
     p.mb-5(data-aos='fade-right').text-center.fw-bold Ahora, algunos ejemplos: 
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3
@@ -215,7 +215,7 @@
           span.r-3.fst-italic Sister-in-law
         p.mb-0 Cuñada
       .card-audios__items.tarjeta.d-inline-block.p-4.text-center
-        Audio.color-acento-contenido.mx-2(:audio="require('@/assets/curso/audio/tema5/1.mp3')")
+        Audio.color-acento-contenido.mx-2(:audio="require('@/assets/curso/audio/tema5/politica.mp3')")
     p.fst-italic.fw-bold For example:   
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3

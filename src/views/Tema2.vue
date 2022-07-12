@@ -10,14 +10,14 @@
       img.mb-5.position-absolute.d-none.d-lg-block(src='@/assets/curso/temas/60.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
       .row.justify-content-end
         .col-lg-10
-          p.mb-0(data-aos='fade-right') El presente continuo (present continuous), también llamado presente progresivo (present progressive), es un tiempo verbal que consiste en usar el verbo “to be” conjugado en presente simple como auxiliar, seguido del verbo principal terminado en -ing.
+          p.mb-0(data-aos='fade-right') El presente continuo (<em>present continuous</em>), también llamado presente progresivo (<em>present progressive</em>), es un tiempo verbal que consiste en usar el verbo “<em>to be</em>” conjugado en presente simple como auxiliar, seguido del verbo principal terminado en -ing.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2.fst-italic 2.1  When is the present continuous used?
     p.mb-5(data-aos='fade-right') Este tiempo verbal se usa para indicar que una acción o evento presente está en progreso, que una acción está repitiéndose con frecuencia, que la acción es de naturaleza temporal, o inclusive, se usa para expresar el futuro. Ahora veremos lo usos más comunes del tiempo presente continuo:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1z8VQh4eV1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2.fst-italic 2.2  -ing spelling rules
