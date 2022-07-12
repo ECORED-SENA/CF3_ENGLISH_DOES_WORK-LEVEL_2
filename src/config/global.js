@@ -262,27 +262,27 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Possessive adjectives</em><br>Adjetivos posesivos',
+      termino: '<em>Possessive adjectives</em>/Adjetivos posesivos',
       significado:
         'son adjetivos, como “my” o “her”, que muestran a quién o a qué pertenece o está conectado algo, es decir, especifican la propiedad de un elemento (expresado por un sustantivo) o, si el sustantivo al que se refiere a algo animado, para especificar una relación. Por ejemplo, "Mi casa es hermosa / My house is beautiful"',
     },
     {
-      termino:
-        '<em>Possessive pronouns</em><br>es un pronombre, como “mine”, “yours”, o “theirs”, que se usa para referirse a una cosa en particular que pertenece a alguien. Por ejemplo, "Esta casa es mía / This house is mine".',
-      significado: '',
+      termino: '<em>Possessive pronouns</em> ',
+      significado:
+        'es un pronombre, como “mine”, “yours”, o “theirs”, que se usa para referirse a una cosa en particular que pertenece a alguien. Por ejemplo, "Esta casa es mía / This house is mine".',
     },
     {
-      termino: '<em>Present continuous </em><br>Presente continuo',
+      termino: '<em>Present continuous</em>/Presente continuo',
       significado:
         'también llamado presente progresivo (present progressive), es un tiempo verbal que hace referencia a acciones que se están llevando a cabo en este preciso instante. Se caracteriza por usar el verbo to be en su estructura como un auxiliar y por tener a un verbo principal con terminación -ING. Así, por ejemplo, en “She is swimming in the sea” / “Ella está nadando en el mar”).',
     },
     {
-      termino: '<em>Saxon genitive</em><br>Genitivo sajón',
+      termino: '<em>Saxon genitive</em>/Genitivo sajón',
       significado:
         'es el término tradicional utilizado para nombrar en el idioma inglés al sufijo posesivo ’s. También recibe otros nombres, como “Genitive Case” (Caso Genitivo) o “Possessive Case” (Caso Posesivo). Por ejemplo, "Soy la hija de Pedro / I am Pedros daughter".',
     },
     {
-      termino: '<em>Time prepositions</em><br>Preposiciones de tiempo:',
+      termino: '<em>Time prepositions</em>/Preposiciones de tiempo',
       significado:
         'son expresiones que nos dan información sobre el tiempo en que sucede algo y se emplean para hablar del momento en que se realiza una acción. Por ejemplo, "before” (antes), “after” (después), “until” (hasta), “since” (desde), etc.',
     },
@@ -381,7 +381,48 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

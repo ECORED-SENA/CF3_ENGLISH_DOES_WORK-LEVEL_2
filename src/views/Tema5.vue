@@ -12,7 +12,7 @@
         .col-lg-10
           p.mb-0(data-aos='fade-right') La familia en inglés es un tanto diferente a la familia en español, debido a que hay palabras que no existen en inglés que sí hay en español. Por ejemplo, la palabra primo y prima se muestran como una sola en inglés, la cual es “cousin”.
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2.fst-italic Miembros de la familia inmediata 
+      h2.fst-italic 5.1 Miembros de la familia inmediata 
     p.mb-5(data-aos='fade-right') Escuche y repita cada uno de los miembros de la familia inmediata:
     .tarjeta.color-acento-contenido.bg-claro.margin-n.p-5.rounded-0
       .row.justify-content-center.mb-3
@@ -231,7 +231,7 @@
           img(src='@/assets/curso/temas/154.svg', alt='' style='width: 315px').m-auto.mb-4
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I cook for my mother-in-law on weekends"
-            :audio="require('@/assets/curso/audio/tema5/7.mp3')"
+            :audio="require('@/assets/curso/audio/tema5/icook.mp3')"
           )
           p Cocino para mi suegra los fines de semana.
       .col-lg-4.mb-lg-0.mb-3
@@ -327,7 +327,7 @@
             .tarjeta.bg-white.p-3
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="My parents work in different places: my mother has a restaurant and my father sells cars.  "
-                :audio="require('@/assets/curso/audio/tema5/10.mp3')"
+                :audio="require('@/assets/curso/audio/tema5/parents.mp3')"
               )
               p Mis padres trabajan en lugares diferentes: mi madre tiene un restaurante y mi padre vende autos.
           .tarjeta.p-5(style='background-color: #e1e8ff')

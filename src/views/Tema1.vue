@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.text-white
         span 1
-      h1.fst-italic Possessives - Whose is this?
+      h1.fst-italic Possessives - Whose is this?/Posesivos-¿De quién es esto?
     .tarjeta.rounded-0.color-secundario.p-4.py-5.position-relative
       img.mb-5.position-absolute.d-none.d-lg-block(src='@/assets/curso/temas/0.svg', alt='' style='width: 150px; top: -5%; left: 4%;')
       .row.justify-content-end
         .col-lg-10
-          p.mb-0(data-aos='fade-right') En el idioma inglés, en las categorías de palabras gramaticales que ayudan a determinar la posesión de algo, se tienen tanto adjetivos posesivos como pronombres posesivos, e incluso se tiene el sufijo ‘s llamado el Genitivo Sajón (Saxon Genitive). 
+          p.mb-0(data-aos='fade-right') En el idioma inglés, en las categorías de palabras gramaticales que ayudan a determinar la posesión de algo, se tienen tanto adjetivos posesivos como pronombres posesivos, e incluso se tiene el sufijo ‘s llamado el Genitivo Sajón (saxon genitive). 
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2.fst-italic 1.1  Possessive adjectives
@@ -22,7 +22,7 @@
       SlyderA(tipo='b')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -31,7 +31,7 @@
                     p 
                       span.r-3 Uso
                       br
-                      | Familia y amigos
+                      | Mostrar que algo pertenece a alguien 
                       br
                       br
                       | <em>For example</em>
@@ -43,10 +43,10 @@
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   p.ms-4 Mi vestido nuevo es hermoso.
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/2.svg', alt='')
+                  img(src='@/assets/curso/temas/2.svg', alt='')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -55,7 +55,7 @@
                     p 
                       span.r-3 Uso
                       br
-                      | Familia y amigos
+                      | Familiares y amigos
                       br
                       br
                       | <em>For example</em>
@@ -67,10 +67,10 @@
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   p.ms-4 Esa es su casa.
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/3.svg', alt='')
+                  img(src='@/assets/curso/temas/3.svg', alt='')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -91,10 +91,10 @@
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   p.ms-4 ¿Cuántos años tiene tu hijo?
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/4.svg', alt='')
+                  img(src='@/assets/curso/temas/4.svg', alt='')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -115,10 +115,10 @@
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   p.ms-4 Diana es mi mejor amiga
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/5.svg', alt='')
+                  img(src='@/assets/curso/temas/5.svg', alt='')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -137,12 +137,12 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                  p.ms-4 Él se arregló sus dientes
+                  p.ms-4 Él se arregló sus dientes.
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/6.svg', alt='')
+                  img(src='@/assets/curso/temas/6.svg', alt='')
         .row.justify-content-center.align-items-center
           .col-md-4.mb-4.mb-md-0
-            img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/1.png', alt='')
+            img.mb-5(src='@/assets/curso/temas/1.png', alt='')
           .col-md-8.mb-4.mb-md-0
             .tarjeta.bg-white.p-4
               .row.justify-content-center.align-items-center
@@ -163,7 +163,7 @@
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   p.ms-4 Yo me pinté mis uñas.
                 .col-lg-4.col-8
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/7.svg', alt='')
+                  img(src='@/assets/curso/temas/7.svg', alt='')
     p.mb-5(data-aos='fade-right') Preste atención al siguiente video y las consideraciones para el uso de los adjetivos posesivos: 
     figure
       .video
@@ -171,11 +171,12 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2.fst-italic 1.2  Possessive pronouns
+    p.mb-5(data-aos='fade-right') Un pronombre posesivo es un pronombre como <em>"mine"</em>, <em>"yours"</em>, <em>"theirs"</em>, que se usa para referirse a una cosa en particual que pertenece a alguien. Revisemos la forma estructural. 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
       span Pronombre posesivo
     .tarjeta.color-secundario--borde.rounded-0.border-3
-      img(data-aos='zoom-in-up')(src='@/assets/curso/temas/8.svg', alt='')
+      img(src='@/assets/curso/temas/8.svg', alt='')
     .tabla-a.color-acento-botones.mb-5
       table.tabla-editada
         tbody.text-center
@@ -223,18 +224,18 @@
             td(colspan='25%') They
             td(colspan='25%') Their
             td(colspan='25%') Theirs
-            td(colspan='25%').bg-2 Suyo, suya, suyos, suyas (de ellos / ellas).
+            td(colspan='25%').bg-2 Suyo, suya, suyos, suyas (de ellos/ellas).
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/9.png', alt='')
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/9.png', alt='')
       .col-lg-4 
         p.mb-0 Los pronombres posesivos no llevan apóstrofe:
           br
           br
-          |Is that wallet yours / hers / ours / theirs? → ¿Esa billetera es tuya / suya (de ella) / nuestra / suya (de ellos)?
+          |Is that wallet yours/hers/ours/theirs? → ¿Esa billetera es tuya/suya(de ella)/nuestra/suya (de ellos)?
           br
           br
-          span.text-red.fw-bold (En este caso, nunca se escribe “your's / her's / our's / their's”, es incorrecto        )
-        img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").m-auto.d-block
+          span.text-red.fw-bold (En este caso, nunca se escribe “your's/her's/our's/their's”, es incorrecto        )
+        img(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").m-auto.d-block
     p.mb-5(data-aos='fade-right') Observe ahora algunas condiciones que deben ser tenidas en cuenta con los pronombres posesivos: 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-9
@@ -243,9 +244,8 @@
             p.mb-5(data-aos='fade-right') A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
             p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
             .row.justify-content-center.align-items-center.mb-3
-              .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/12.svg', alt='')
+              .col-lg-4: img(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-6
-                //TODO! AUDIO NO ESTA 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="That jacket is <span class=r-2>mine.</span>"
                       :audio="require('@/assets/curso/audio/tema1/7.mp3')"
@@ -254,59 +254,54 @@
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-4 Esa chaqueta es 
                   span.r-3 mía.
-                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Those jackets are <span class=r-2>mine.</span>"
-                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/a1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.ms-4 Esas chaquetas son 
                   span.r-3 mías.
             .row.justify-content-center.align-items-center.mb-5
-              .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/13.svg', alt='')
+              .col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
               .col-lg-6
-                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="That computer is <span class=r-2>mine.</span>"
                       :audio="require('@/assets/curso/audio/tema1/9.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.ms-4 Ese computador es
-                  span.r-3 míO.
-                //TODO! AUDIO NO ESTA
+                p.ms-4 Ese computador es 
+                  span.r-3 mío.
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Those computers are <span class=r-2>mine.</span>"
                       :audio="require('@/assets/curso/audio/tema1/10.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.ms-4 Esos computadores son
+                p.ms-4 Esos computadores son 
                   span.r-3 míos.
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-6
-                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="“Those computers are <span class=r-2>mines</span>"
-                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/a2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               .col-lg-4
                 .d-flex
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").d-block.me-3
+                  img(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").d-block.me-3
                   h3.fw-bold.mb-0 Es incorrecto X
-          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivos posesivos por pronombres posesivos +')
+          .tarjeta.bg-white.p-4.mx-4(titulo='Responder preguntas sin mencionar el sustantivo +')
             p.mb-5(data-aos='fade-right') Se pueden responder preguntas sin mencionar el sustantivo de la cosa de la que se está hablando si ya se hizo referencia previamente a esta en la pregunta. No hay necesidad ni del sustantivo ni de un adjetivo posesivo, con el pronombre posesivo basta:
             p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
             .row.justify-content-center.mb-5
-              .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/14.svg', alt='')
+              .col-lg-4: img(src='@/assets/curso/temas/14.svg', alt='')
               .col-lg-6
-                //TODO! AUDIO NO ESTA
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Is that Johana’s house?"
-                      :audio="require('@/assets/curso/audio/tema1/12.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/a3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -316,15 +311,13 @@
                   | No, it’s mine. → No, es la mía.
                   br
                   br
-                  | No se dice: ?<em><b>“No, it’s my house”</b></em>, suena poco natural.
+                  | No se dice: <em><b>“No, it’s my house”</b></em>, suena poco natural.
             .row.justify-content-center.mb-5
-              .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/15.svg', alt='')
+              .col-lg-4: img(src='@/assets/curso/temas/15.svg', alt='')
               .col-lg-6
-                //TODO! AUDIO NO ESTA
-                
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="Whose car is this?"
-                      :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                      :audio="require('@/assets/curso/audio/tema1/a4.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -335,11 +328,11 @@
                   br
                   br
                   | No se dice: <em><b>“Is it your car?”</b></em>, suena poco natural.
-          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivo + sustantivo +')
+          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivos por pronombres posesivos')
             p.mb-5(data-aos='fade-right') Un pronombre posesivo reemplaza un <b>“adjetivo posesivo + sustantivo”</b> para evitar repetir información que ya está clara o que ya se ha mencionado con anterioridad.
             p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
             .row.justify-content-center.mb-5
-              .col-lg-4: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/16.svg', alt='')
+              .col-lg-4: img(src='@/assets/curso/temas/16.svg', alt='')
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                       texto="This bag is <span class=r-2>my bag</span>, not <span class=r-2>your bag</span>."
@@ -368,7 +361,7 @@
 
                 br
                 | <em>“Yours”</em> reemplaza <em>“your bag”</em>.
-          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivos posesivos por pronombres posesivos +')
+          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivo + sustantivo +')
             p.mb-5(data-aos='fade-right') A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
             p.mb-5(data-aos='fade-right').text-center.fst-italic For example
             .row.justify-content-center.mb-5
@@ -403,7 +396,7 @@
                   span.r-3 mío.
                   br
       .col-lg-3
-        .d-none.d-lg-block: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/11.svg', alt='')
+        .d-none.d-lg-block: img(src='@/assets/curso/temas/11.svg', alt='')
     .tarjeta.rounded-0.margin-n.color-acento-contenido.bg-claro.p-4.mb-5
       .row.justify-content-center.mb-5
         .col-lg-9
@@ -421,11 +414,9 @@
               .row.justify-content-center.mb-3
                 .col-10
                   img.rounded-3(src='@/assets/curso/temas/18.jpg' alt='AvatarTop')
-              //TODO! AUDIO NO ESTA
-              
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The dress is mine. "
-                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/a5.mp3')"
                 )
               p.ms-4 El vestido es mío.
             .tarjeta.color-primario.bg-claro.p-4
@@ -454,7 +445,7 @@
                   texto="The car is his. "
                   :audio="require('@/assets/curso/audio/tema1/23.mp3')"
                 )
-              p.ms-4 El coche es suyo. (de él)
+              p.ms-4 El coche es suyo (de él).
             .tarjeta.color-primario.bg-claro.p-4
               .row.justify-content-center.mb-3
                 .col-10
@@ -498,10 +489,9 @@
               .row.justify-content-center.mb-3
                 .col-10
                   img.rounded-3(src='@/assets/curso/temas/26.jpg' alt='AvatarTop')
-              //TODO! AUDIO NO ESTA
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="The parrot is ours."
-                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/a6.mp3')"
                 )
               p.ms-4 El loro es nuestro.
             .tarjeta.color-primario.bg-claro.p-4
@@ -523,11 +513,11 @@
                 )
               p.ms-4 El libro es suyo (de ustedes).
     .row.justify-content-center.align-items-end.mb-3
-      .col-lg-4.col-8.mb-lg-0.mb-3: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/29.png', alt='')
+      .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/29.png', alt='')
       .col-lg-6 
-        p.mb-3 Para la segunda persona singular (tú / usted) y la segunda persona plural (ustedes), tanto el pronombre personal (you) como el adjetivo posesivo (your) y el pronombre posesivo (yours) coinciden. Se debe diferenciar a qué persona o personas se está haciendo referencia por el contexto de la oración o de la conversación.
+        p.mb-3 Para la segunda persona singular (tú/usted) y la segunda persona plural (ustedes), tanto el pronombre personal (you) como el adjetivo posesivo (your) y el pronombre posesivo (yours) coinciden. Se debe diferenciar a qué persona o personas se está haciendo referencia por el contexto de la oración o de la conversación.
         .row.mb-3
-          .col-lg-4.mb-lg-0.mb-3.col-8: img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/30.svg', alt='')
+          .col-lg-4.mb-lg-0.mb-3.col-8: img.mb-5(src='@/assets/curso/temas/30.svg', alt='')
           .col-lg-7
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Their restaurant is amazing. "
@@ -541,7 +531,7 @@
             p.ms-4 El restaurante es suyo (de ellos).
         p.mb-3(data-aos='fade-right') Se pueden usar pronombres posesivos después de “of”.
         .row.mb-1
-          .col-lg-4.mb-lg-0.mb-3.col-8: img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/31.svg', alt='')
+          .col-lg-4.mb-lg-0.mb-3.col-8: img.mb-5(src='@/assets/curso/temas/31.svg', alt='')
           .col-lg-8
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="Susan is one of my friends. Susan is a friend of mine."
@@ -557,9 +547,9 @@
       h2.fst-italic 1.3  Saxon genitive 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-3(data-aos='fade-right') Genitivo sajón o <b>“Saxon Genitive”</b> es el término tradicional utilizado para nombrar en el idioma inglés al sufijo posesivo 
+        p.mb-3(data-aos='fade-right') genitivo sajón o <b>“saxon genitive”</b> es el término tradicional utilizado para nombrar en el idioma inglés al sufijo posesivo 
           span.r-3 ’s. 
-          | También recibe otros nombres, como <b>“Genitive Case”</b> (Caso Genitivo) o <b>“Possessive Case”</b> (Caso Posesivo).
+          | También recibe otros nombres, como <b>“genitive case”</b> (caso genitivo) o <b>“possessive case”</b> (caso posesivo).
           br
           br
           |Este sufijo “apóstrofe + 
@@ -569,9 +559,9 @@
           span.r-3.fst-italic For example:
         .row.justify-content-center.mb-3
           .col-lg-8
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/32.svg', alt='')
-        p(data-aos='fade-right') Para referirse a “la maleta de Clara” no se dice <em>“the suitcase of Clara”</em> como se diría en español. En inglés se usa el ‘s. Se dice /<em>“Clara's suitcase”</em>, lo que significa que la maleta pertenece a Clara.
-      .col-lg-5.col-8: img.mb-5(data-aos='zoom-in-up')(src='@/assets/curso/temas/33.jpg', alt='')
+            img(src='@/assets/curso/temas/32.svg', alt='')
+        p(data-aos='fade-right') Para referirse a “la maleta de Clara” no se dice <em>“the suitcase of Clara”</em> como se diría en español. En inglés se usa el ‘s. Se dice <em>“Clara's suitcase”</em>, lo que significa que la maleta pertenece a Clara.
+      .col-lg-5.col-8: img.mb-5(src='@/assets/curso/temas/33.jpg', alt='')
     p.mb-5(data-aos='fade-right') Reglas para usar el genitivo sajón:
     TabsA.color-secundario.mb-5
       .tarjeta.color-secundario--borde.p-4(titulo="Singular nouns")
@@ -717,21 +707,19 @@
         .row.justify-content-center.mb-2.align-items-start
           .col-lg-4
             .d-flex.align-items-center
-              //TODO NO HAY AUDIO PARA ESTE EJERCICIO
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is this James’ job? "
-                    :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/a7.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p ¿Este es el trabajo de James?
           .col-lg-5
             .d-flex.align-items-center
-              //TODO NO HAY AUDIO PARA ESTE EJERCICIO
               TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Is this James’s job?"
-                    :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                    :audio="require('@/assets/curso/audio/tema1/a8.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
         .row.justify-content-center.mb-2
           .col-lg-4
             
@@ -740,7 +728,7 @@
                       texto="I know Charles’ brother. "
                       :audio="require('@/assets/curso/audio/tema1/48.mp3')"
                     )
-                img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+                img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
               p Yo conozco al hermano de Charles.
           .col-lg-5
             .d-flex.align-items-center
@@ -748,7 +736,7 @@
                     texto="I know Charles’s brother."
                     :audio="require('@/assets/curso/audio/tema1/49.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
         .row.justify-content-center.mb-2
           .col-lg-4
             .d-flex.align-items-center
@@ -756,7 +744,7 @@
                     texto="I don’t like Chris’ boots."
                     :audio="require('@/assets/curso/audio/tema1/50.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p No me gustan las botas de Chris.
           .col-lg-5
             .d-flex.align-items-center
@@ -764,7 +752,7 @@
                     texto="I don’t like Chris’s boots."
                     :audio="require('@/assets/curso/audio/tema1/51.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
       .tarjeta.color-secundario--borde.p-4(titulo="For two or more people")
         h4
           span.r-3 For two or more people
@@ -820,10 +808,9 @@
         .row.mb-2.align-items-center
           .col-lg-3: img.mb-5(src='@/assets/curso/temas/48.svg', alt='')
           .col-lg-8
-            //TODO NO HAY AUDIO PARA ESTE EJERCICIO
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="My boat is faster than <span class= r-2>Oscar’s.</span> "
-                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/a9.mp3')"
                 )
             p.ms-4 Mi barco es más rápido que el 
               span.r-3 de Oscar.
@@ -837,10 +824,9 @@
             p.ms-4 ¿De quién es este celular?
           .col-lg-4
 
-            //TODO NO HAY AUDIO PARA ESTE EJERCICIO
             TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                   texto="It is <span class= r-2>Sofia’s.</span>"
-                  :audio="require('@/assets/curso/audio/tema1/1.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/a11.mp3')"
                 )
             p.ms-4 Es 
               span.r-3 de Sofía.
@@ -852,7 +838,7 @@
                     texto="It is <span class= r-2>Sofia’s</span> cell phone. "
                     :audio="require('@/assets/curso/audio/tema1/59.mp3')"
                   )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p.ms-3 Es el celular 
               span.r-3 de Sofía.
           .col-lg-6
@@ -863,7 +849,7 @@
       .tarjeta.color-acento-contenido.bg-claro.rounded-0.p-5(titulo="Warning #1")
         .row.align-items-center.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/50.png', alt='')
+            img(src='@/assets/curso/temas/50.png', alt='')
           .col-md-8
             p.mb-5(data-aos='fade-right') No se usa el sufijo 
               span.r-3 ‘s 
@@ -876,13 +862,13 @@
                   br
                   |1 limón, 2 limones, …
                 .d-flex.align-items-center
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').me-3
+                  img(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').me-3
                   p.mb-0
                     span.text-red.fw-bold  No se escribe 2 lemon’s.
       .tarjeta.color-acento-contenido.bg-claro.rounded-0.p-5(titulo="Warning #2")
         .row.align-items-center.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/52.png', alt='')
+            img(src='@/assets/curso/temas/52.png', alt='')
           .col-md-8
             p.mb-5(data-aos='fade-right') <b>La fórmula “(noun) + of + (noun)”</b>
               br
@@ -901,7 +887,7 @@
                 .d-flex.align-items-center
                   p.mb-0
                     span.text-red.fw-bold  No se dice “China’s Great Wall”, es incorrecto
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
+                  img(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
                 p.mb-3 * En ocasiones, ambas formas son válidas; en estos casos, escoger entre una u otra pasa a ser solo una cuestión de estilo:
         .row.align-items-center
           .col-lg-2: img(src='@/assets/curso/temas/54.svg', alt='') 
@@ -909,19 +895,19 @@
             .d-flex.align-items-center.mb-3
               p.mb-0 He spent years studying Colombia’s history. 
               // audio 65
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3 
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3 
             .d-flex.align-items-center.mb-3
               TarjetaAudio.color-acento-contenido.bg-white(
                   texto="He spent years studying the history of Colombia.  "
-                  :audio="require('@/assets/curso/audio/tema1/65.mp3')"
+                  :audio="require('@/assets/curso/audio/tema1/a10.mp3')"
                 )
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
             p.ms-3 Él pasó años estudiando la historia de Colombia.
       .tarjeta.color-acento-contenido.bg-claro.rounded-0.p-5(titulo="Warning #3")
         p.mb-3 Normalmente, no se usa el genitivo sajón con objetos como poseedores. Los objetos no poseen, los objetos tienen partes o componentes y no tienen conciencia de poseer nada.
         .row.align-items-center.justify-content-center
           .col-md-4.mb-4.mb-md-0
-            img(data-aos='zoom-in-up')(src='@/assets/curso/temas/57.png', alt='')
+            img(src='@/assets/curso/temas/57.png', alt='')
           .col-md-8
             p.fst-italic.fw-bold For example
             .row.justify-content-center.align-items-center.mb-5
@@ -932,25 +918,25 @@
                       texto="The end of the road.  "
                       :audio="require('@/assets/curso/audio/tema1/62.mp3')"
                     )
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+                  img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
                   
                 p.ms-3 El final del camino.
                 .d-flex.align-items-center
                   p.mb-0 No se escribe <b>“The road’s end”</b>, es incorrecto 
 
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
+                  img(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
                 p.mb-3 En este caso, se usa la fórmula “sustantivo + of + sustantivo”.
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-4: img(src='@/assets/curso/temas/56.svg', alt='') 
               .col-lg-8
                 .d-flex.align-items-center
                   p.mb-0 The airplane window. 
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+                  img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
                   
                 p.ms-3 La ventana del avión.
                 .d-flex.align-items-center
                   p.mb-0 No se escribe <b><em>“The airplane’s window”</em></b>, es incorrecto 
-                  img(data-aos='zoom-in-up')(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
+                  img(src='@/assets/curso/temas/10.svg', alt='' style='width: 25px').ms-3
                 p.mb-3 En este caso, <em>“airplane”</em> es visto como un adjetivo que describe de dónde es la ventana.
         p.mb-3 * Cuando se habla de los componentes de un objeto, ambas formas son correctas.
           br
@@ -958,24 +944,24 @@
         .row.justify-content-center.mb-5
           .col-lg-6
             .d-flex.align-items-center
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/58.svg', alt='' style='width: 67px').me-3
+              img(src='@/assets/curso/temas/58.svg', alt='' style='width: 67px').me-3
               div.mb-0
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="I must check the window of the airplane.   "
                     :audio="require('@/assets/curso/audio/tema1/63.mp3')"
                   )
                 p.ms-3 Debo revisar la ventana del avión.
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
           .col-lg-6
             .d-flex.align-items-center
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/59.svg', alt='' style='width: 67px').me-3
+              img(src='@/assets/curso/temas/59.svg', alt='' style='width: 67px').me-3
               div.mb-0
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                     texto="Hail cannot damage the airplane window.  "
                     :audio="require('@/assets/curso/audio/tema1/64.mp3')"
                   )
                 p.ms-3 El granizo no puede dañar la ventana del avión.
-              img(data-aos='zoom-in-up')(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
+              img(src='@/assets/curso/temas/35.svg', alt='' style='width: 25px').ms-3
               
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 Actividad didáctica

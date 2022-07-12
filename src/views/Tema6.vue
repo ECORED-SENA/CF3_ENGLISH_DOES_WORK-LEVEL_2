@@ -34,7 +34,7 @@
       .tarjeta.no-repeat.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/temas/173.jpg')})`}" style='height: 394px').p-4
         .tarjeta.bg-white.mw.p-4.text-center
           h4
-            span.r-3.fst-italic Play soccer / football
+            span.r-3.fst-italic Play soccer/football
           p.mb-0 Jugar fútbol
       .tarjeta.no-repeat.d-flex.align-items-end.justify-content-center(:style="{'background-image': `url(${require('@/assets/curso/temas/174.jpg')})`}" style='height: 394px').p-4
         .tarjeta.bg-white.mw.p-4.text-center
@@ -180,11 +180,10 @@
                 :audio="require('@/assets/curso/audio/tema6/5.mp3')"
                 )
                 p  Me gusta jugar videojuegos.
-              //TODO EL AUDIO ESTA ERRADO!!
               .col-lg-6
                 TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                 texto="We love to sing."
-                :audio="require('@/assets/curso/audio/tema6/lovesing.mp3')"
+                :audio="require('@/assets/curso/audio/tema6/w1.mp3')"
                 )
                 p Nos encanta cantar.
     titulo-segundo.color-acento-contenido(data-aos='fade-right')

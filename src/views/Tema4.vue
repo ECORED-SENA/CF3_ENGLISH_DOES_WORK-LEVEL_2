@@ -29,7 +29,7 @@
         p.mb-0 Martes
       .card-audios__items.tarjeta.bg-white.d-inline-block.p-4.text-center.m-3
         h5
-          span.r-3 Wendnesday
+          span.r-3 Wednesday
         p.mb-0 Miércoles
       .card-audios__items.tarjeta.bg-white.d-inline-block.p-4.text-center.m-3
         h5
@@ -183,7 +183,7 @@
             .col-lg-6 
               TarjetaAudio.color-acento-contenido.bg-white.mb-3(
               texto="My sister got married on January 25, 2022.  "
-              :audio="require('@/assets/curso/audio/tema4/5.mp3')"
+              :audio="require('@/assets/curso/audio/tema4/gotmarried.mp3')"
               )
               p Mi hermana se casó el 25 de enero de 2022.
     Separador

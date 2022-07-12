@@ -15,7 +15,7 @@
           p.p-5.mb-0 Comúnmente, usamos las preposiciones, en general (de tiempo, de lugar, de modo, etc.), para mostrar una relación en el espacio o el tiempo, o una relación lógica entre dos o más personas, lugares o cosas.
             br
             br
-            |Desafortunadamente, las preposiciones pueden ser un área de la gramática compleja de dominar y no existe una fórmula mágica para ellas, ya que no nos podemos confiar al cien por ciento de su traducción. Esto se debe a que su traducción puede variar de un idioma a otro, varias preposiciones pueden traducir lo mismo al español, pero emplearse de manera diferente en inglés, por ende, <b>no se debe partir de la pregunta “¿cómo se diría esto en español?” En su lugar, cada preposición debe aprenderse basándose en su uso específico.</b>
+            |Desafortunadamente, las preposiciones pueden ser un área de la gramática compleja de dominar y no existe una fórmula mágica para ellas, ya que no nos podemos confiar al cien por ciento de su traducción. Esto se debe a que su traducción puede variar de un idioma a otro, varias preposiciones pueden traducir lo mismo al español, pero emplearse de manera diferente en inglés, por ende, <b>no se debe partir de la pregunta “¿cómo se diría esto en español?”. En su lugar, cada preposición debe aprenderse basándose en su uso específico.</b>
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2.fst-italic 3.1  When to use at, on, in?
@@ -194,7 +194,7 @@
             .col-lg-6 
               .d-flex.aling-items-center
                 img(src='@/assets/curso/temas/93.svg', alt='' style='width: 64px').me-3
-                p.mb-0 Summer / winter / autumn / spring <br> (Durante / En) el verano / el invierno / el otoño / la primavera
+                p.mb-0 Summer / winter / autumn / spring <br> (Durante/En) el verano/el invierno/el otoño/la primavera
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6 
               h5.mb-3 Años
@@ -215,7 +215,7 @@
             .col-lg-6 
               .d-flex.aling-items-center
                 img(src='@/assets/curso/temas/98.svg', alt='' style='width: 64px').me-3
-                p.mb-0 The 21th centur <br> (En) el siglo XXI
+                p.mb-0 The 21th century <br> (En) el siglo XXI
       div(x="76%" y="87%" tooltip="" numero="+")
         h5
           span.r-3 In - Example
@@ -324,7 +324,7 @@
           .col-md-8
             h4
               span.r-1 Warning #2
-            p No se usa at, on, in o the con las siguientes expresiones:
+            p No se usa <em>at, on, in o the</em> con las siguientes expresiones:
               br
               br
               span.r-3.fst-italic Today, tomorrow, yesterday, this morning, tonight, last, next, every.
@@ -377,7 +377,7 @@
           img(src='@/assets/curso/temas/112.svg', alt='' style='width: 173px').m-auto
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="I get up every day before dawn."
-            :audio="require('@/assets/curso/audio/tema3/14.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/c2.mp3')"
           )
           p Me levanto todos los días antes del amanecer.
       .col-lg-4.mb-lg-0.mb-5
@@ -465,10 +465,9 @@
             .card-title__div-title.p-3.m-auto
               h6.mb-0 Up to → hasta
           img(src='@/assets/curso/temas/120.svg', alt='' style='width: 173px').m-auto
-          //TODO FALTA AUDIO 
           TarjetaAudio.color-acento-contenido.bg-white.mb-3(
             texto="Up to now she is still quiet."
-            :audio="require('@/assets/curso/audio/tema3/1.mp3')"
+            :audio="require('@/assets/curso/audio/tema3/c1.mp3')"
           )
           p Hasta ahora sigue callada.
     .row.justify-content-start.mb-5
@@ -506,6 +505,12 @@
             br
             |No olvide hacer uso de los diccionarios propuestos, para profundizar en el significado de cada una.
     Separador
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2.fst-italic 3.3 When to use "when"?
+    p.mb-5(data-aos='fade-right') Más comúnmente, se usa <em>"when"</em> para hacer preguntas. Pero tambien se puede usar <em>"when"</em> para decir o hacer declaraciones.
+      br
+      br
+      | Revisemos el uso de <em>"when"</em> en los diferentes contextos: 
     .tarjeta.color-primario.p-4.px-5.mb-3
       SlyderA(tipo='b')
         .row.justify-content-center.align-items-end
@@ -556,12 +561,11 @@
               p Se debe tener en cuenta que la oración puede comenzar con “when” y significa lo mismo incluso si se invierte el orden de las cláusulas y la ubicación de “when” cambia en la oración:
               .row.justify-content-center.mb-5
                 .col-lg-8
-                  // TODO audio 39
                   TarjetaAudio.color-acento-contenido.bg-white.mb-3(
                       texto="I used to love teddy bears when I was a little girl."
                       :audio="require('@/assets/curso/audio/tema3/39.mp3')"
                     )
-                  p.ms-3 I used to love teddy bears when I was a little girl.
+                  p.ms-3 Me solían encantar los ositos de peluche, cuando era una niña pequeña.
         .row.justify-content-center.align-items-end
           .col-md-3.mb-4.mb-md-0
             img(data-aos='zoom-in-up')(src='@/assets/curso/temas/124.png', alt='')

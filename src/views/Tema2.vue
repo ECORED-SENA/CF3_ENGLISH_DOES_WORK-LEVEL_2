@@ -36,18 +36,18 @@
                   th ING form / Forma ING
                 tbody.text-center
                   tr.content
-                    td  to dance
+                    td  to work
 
-                    td  to write
-
-                  tr.content
-                    td to make
-
-                    td making
+                    td  working
 
                   tr.content
-                    td to write
-                    td writing
+                    td to eat
+
+                    td eating
+
+                  tr.content
+                    td to fish
+                    td fishing
         p.mb4.fw-bold.text-center For example:
         .row.justify-content-center.mb-5
           .col-lg-6
@@ -77,7 +77,7 @@
                 | en el lago.
     p.mb-5(data-aos='fade-right') Ahora, revisemos las excepciones ortográficas a la regla general de la terminación –ing:
     TabsA.color-secundario.mb-5
-      .tarjeta.color-primario--borde.bg-azul-claro.border-2.p-4(titulo="Verbos terminados en ”consonante …")
+      .tarjeta.color-primario--borde.bg-azul-claro.border-2.p-4(titulo="Verbos terminados en ”consonante + e")
         h4
           span.r-3 Verbos terminados en ”consonante + e”
         p.mb-4 Cuando un verbo termina en “consonante + e”, quitamos la -e del final y agregamos -ing.
@@ -91,7 +91,7 @@
                 tbody.text-center
                   tr.content
                     td   to dance
-                    td  to write
+                    td  dancing
                   tr.content
                     td  to make
                     td making
@@ -271,8 +271,8 @@
                     td to visit 
                     td visiting
                   tr.content
-                    td offering
                     td to offer
+                    td offering
         p.text-center.fst-italic.fw-bold For example: 
         .row.justify-content-center.mb-5
           .col-lg-6
@@ -438,7 +438,7 @@
               img(src='@/assets/curso/temas/64.svg', alt='' style='width: 85px').me-4
               p.mb-0 En el presente continuo, el verbo principal, terminado en -ing, es el que indica la acción que se está realizando. Este verbo no varía y va a ser el mismo, sin importar quién es el sujeto que está realizando la acción.
             .text-white.p-lg-0.px-2
-              p Adicionalmente, el verbo to be, en este tiempo verbal, va a hacer las veces de auxiliar y varía dependiendo de quién esté realizando la acción; por ende, es importante fijarse en el sujeto para poder conjugar correctamente el verbo to be.
+              p Adicionalmente, el verbo <em>to be</em>, en este tiempo verbal, va a hacer las veces de auxiliar y varía dependiendo de quién esté realizando la acción; por ende, es importante fijarse en el sujeto para poder conjugar correctamente el verbo <em>to be</em>.
                 br
                 br
                 |Revisemos el tiempo presente continuo y la conjugación en sus tres formas:
@@ -460,7 +460,7 @@
             .row.justify-content-center.mb-2
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
-                    texto="I am drinking water."
+                    texto="I'm drinking water."
                     :audio="require('@/assets/curso/audio/tema2/17.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
@@ -562,10 +562,9 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
-                //TODO! NO HAY AUDIO 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="We are not drinking water."
-                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/a1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )        
             .row.justify-content-center.mb-2
@@ -576,11 +575,10 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
-                //TODO! NO HAY AUDIO 
 
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are not drinking water."
-                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/a2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )        
             .row.justify-content-center.mb-2
@@ -677,11 +675,9 @@
             p.fw-bold.fst-italic For example: 
             .row.justify-content-center.mb-2
               .col-lg-5
-                //TODO! NO HAY AUDIO 
-
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you studying engineering?"
-                    :audio="require('@/assets/curso/audio/tema2/1.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/a3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                 p.ms-4 ¿Estás estudiando ingeniería?
@@ -791,13 +787,13 @@
         p Para verificar el significado y pronunciación, puede hacer uso de herramientas en línea, como
         .row.justify-content-center.mb-3
           .col-lg-6
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://linguee.com" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p <b>Enlace web.</b> <br> Linguee 
           .col-lg-6
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://wordreference.com" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -814,12 +810,12 @@
             .col-lg-6.mb-lg-0.mb-3
               p.mb-0 I understand you. ✔
                 br 
-                | Te entiendo. (tiempo presente simple)
+                | Te entiendo (tiempo presente simple).
 
             .col-lg-6  
               p.mb-0 I am understanding you. X 
                 br
-                |Te estoy entendiendo. (tiempo presente continuo)
+                |Te estoy entendiendo (tiempo presente continuo).
         .tarjeta.rounded-0.p-4.mb-4.bg-claro2
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-lg-0.mb-3
@@ -842,7 +838,6 @@
       .row.justify-content-center.mb-3
         .col-lg-3.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/69.svg', alt='').mb-4
-          // TODO Audio 49 
           TarjetaAudio.color-acento-contenido.mb-3.bg-white(
               texto="She has an old house. "
               :audio="require('@/assets/curso/audio/tema2/49.mp3')"
