@@ -558,7 +558,7 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="You are not drinking water."
-                    :audio="require('@/assets/curso/audio/tema2/27.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/a2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
@@ -636,7 +636,7 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you drinking water?"
-                    :audio="require('@/assets/curso/audio/tema2/35.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/aydw.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
               .col-lg-5
@@ -655,7 +655,7 @@
               .col-lg-5
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
                     texto="Are you drinking water?"
-                    :audio="require('@/assets/curso/audio/tema2/38.mp3')"
+                    :audio="require('@/assets/curso/audio/tema2/aydw.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )  
             .row.justify-content-center.mb-2

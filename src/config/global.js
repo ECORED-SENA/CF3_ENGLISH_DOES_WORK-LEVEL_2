@@ -279,7 +279,7 @@ export default {
     {
       termino: '<em>Saxon genitive</em>/Genitivo sajón',
       significado:
-        'es el término tradicional utilizado para nombrar en el idioma inglés al sufijo posesivo ’s. También recibe otros nombres, como “Genitive Case” (Caso Genitivo) o “Possessive Case” (Caso Posesivo). Por ejemplo, "Soy la hija de Pedro / I am Pedros daughter".',
+        'es el término tradicional utilizado para nombrar en el idioma inglés al sufijo posesivo ’s. También recibe otros nombres, como “Genitive Case” (Caso Genitivo) o “Possessive Case” (Caso Posesivo). Por ejemplo, "Soy la hija de Pedro / I am Pedro&#39s daughter".',
     },
     {
       termino: '<em>Time prepositions</em>/Preposiciones de tiempo',
