@@ -241,8 +241,8 @@
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color-primario")
           .tarjeta.bg-white.p-4.mx-4(titulo='Los pronombres posesivos son palabras invariables +')
-            p.mb-5(data-aos='fade-right') A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
-            p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
+            p.mb-5 A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
+            p.mb-5.text-center.fst-italic.fw-bold For example
             .row.justify-content-center.align-items-center.mb-3
               .col-lg-4: img(src='@/assets/curso/temas/12.svg', alt='')
               .col-lg-6
@@ -294,8 +294,8 @@
                   img(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").d-block.me-3
                   h3.fw-bold.mb-0 Es incorrecto X
           .tarjeta.bg-white.p-4.mx-4(titulo='Responder preguntas sin mencionar el sustantivo +')
-            p.mb-5(data-aos='fade-right') Se pueden responder preguntas sin mencionar el sustantivo de la cosa de la que se está hablando si ya se hizo referencia previamente a esta en la pregunta. No hay necesidad ni del sustantivo ni de un adjetivo posesivo, con el pronombre posesivo basta:
-            p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
+            p.mb-5 Se pueden responder preguntas sin mencionar el sustantivo de la cosa de la que se está hablando si ya se hizo referencia previamente a esta en la pregunta. No hay necesidad ni del sustantivo ni de un adjetivo posesivo, con el pronombre posesivo basta:
+            p.mb-5.text-center.fst-italic.fw-bold For example
             .row.justify-content-center.mb-5
               .col-lg-4: img(src='@/assets/curso/temas/14.svg', alt='')
               .col-lg-6
@@ -329,8 +329,8 @@
                   br
                   | No se dice: <em><b>“Is it your car?”</b></em>, suena poco natural.
           .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivos por pronombres posesivos')
-            p.mb-5(data-aos='fade-right') Un pronombre posesivo reemplaza un <b>“adjetivo posesivo + sustantivo”</b> para evitar repetir información que ya está clara o que ya se ha mencionado con anterioridad.
-            p.mb-5(data-aos='fade-right').text-center.fst-italic.fw-bold For example
+            p.mb-5 Un pronombre posesivo reemplaza un <b>“adjetivo posesivo + sustantivo”</b> para evitar repetir información que ya está clara o que ya se ha mencionado con anterioridad.
+            p.mb-5.text-center.fst-italic.fw-bold For example
             .row.justify-content-center.mb-5
               .col-lg-4: img(src='@/assets/curso/temas/16.svg', alt='')
               .col-lg-6
@@ -354,7 +354,7 @@
                   span.r-3 mío, 
                   |no 
                   span.r-3 tuyo.
-              p.mt-5(data-aos='fade-right') Para evitar repetir la palabra “bolso” tantas veces, se puede reemplazar por pronombres posesivos. De esta forma, la oración suena más natural.
+              p.mt-5 Para evitar repetir la palabra “bolso” tantas veces, se puede reemplazar por pronombres posesivos. De esta forma, la oración suena más natural.
                 br
                 br
                 | <em>“Mine”</em> reemplaza <em>“my bag”</em>.
@@ -362,8 +362,8 @@
                 br
                 | <em>“Yours”</em> reemplaza <em>“your bag”</em>.
           .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivo + sustantivo +')
-            p.mb-5(data-aos='fade-right') A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
-            p.mb-5(data-aos='fade-right').text-center.fst-italic For example
+            p.mb-5 A diferencia del español, en el idioma inglés, los pronombres posesivos tienen una sola forma. No varían en número ni en género, o sea, no hay palabras diferentes para plural y singular ni para femenino y masculino.
+            p.mb-5.text-center.fst-italic For example
             .row.justify-content-center.mb-5
               .col-lg-4
                 TarjetaAudio.color-acento-contenido.mb-3.bg-white(
@@ -529,7 +529,7 @@
                   :audio="require('@/assets/curso/audio/tema1/32.mp3')"
                 )
             p.ms-4 El restaurante es suyo (de ellos).
-        p.mb-3(data-aos='fade-right') Se pueden usar pronombres posesivos después de “of”.
+        p.mb-3 Se pueden usar pronombres posesivos después de “of”.
         .row.mb-1
           .col-lg-4.mb-lg-0.mb-3.col-8: img.mb-5(src='@/assets/curso/temas/31.svg', alt='')
           .col-lg-8
@@ -543,7 +543,7 @@
             span.text-red.me-4 No se dice: <b>“Susan is a friend of me”</b>, es incorrecto 
           img(src='@/assets/curso/temas/10.svg', alt='' style="width: 24px").d-block
     Separador
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+    #t_1_3.titulo-segundo.color-acento-contenido
       h2.fst-italic 1.3  Saxon genitive 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
