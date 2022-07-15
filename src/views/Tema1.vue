@@ -328,7 +328,7 @@
                   br
                   br
                   | No se dice: <em><b>“Is it your car?”</b></em>, suena poco natural.
-          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivo posesivos por pronombres posesivos')
+          .tarjeta.bg-white.p-4.mx-4(titulo='Reemplazar adjetivos posesivos por pronombres posesivos')
             p.mb-5 Un pronombre posesivo reemplaza un <b>“adjetivo posesivo + sustantivo”</b> para evitar repetir información que ya está clara o que ya se ha mencionado con anterioridad.
             p.mb-5.text-center.fst-italic.fw-bold For example
             .row.justify-content-center.mb-5
